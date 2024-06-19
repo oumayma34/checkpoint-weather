@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background:url(https://nordicapis.com/wp-content/uploads/How-to-Build-an-API-Driven-Weather-App.png);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #00796b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #004d40;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+}
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
